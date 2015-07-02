@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="jQuery plugin for cloning html form element, independent of front-end framework">
+    <title></title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+        <div class="container">
+            <div class="page-header text-center">
+                <h1>Pure CSS3 Notepaper with Bootstrap</h1>
+                <a href="https://gr.linkedin.com/pub/alexandros-kalamatianos/7/515/741">
+                    <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Alexandros Kalamatianos's profile on LinkedIn">
+                </a><br/><br/>
+                <div id="author">
+                    <p>Created by <a href="http://alkal.gr" target="_blank">Alexandros Kalamatianos</a></p>
+                </div>
+            </div><!--// page-header -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Description</h2>
+                    <p>Pure CSS Notepaper is a simple technique to present quotes or small written text on your website (or app).</p>
+                    <p>In our case, I used Bootstrap, my lovely front-end framework and suitable css rules to give the effect of notepaper. More specifically, regarding Bootstrap framework, <a href="http://getbootstrap.com/javascript/#collapse" title="Bootstrap Collapse JS" target="_blank">Collapse JS</a> has been used to handle toggle behaviour, compatible with custom jquery script. Enjoy it!</p>
+                    <p>It works perfectly in Webkit, Opera, Firefox and almost perfectly in IE (paper rulers are not presented).</p>
+                </div><!--// col-xs-12 -->
+            </div><!--// row -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Download</h2>
+                    <p>Source files <a href="https://github.com/alkal/cloneFormElement.js" target="_blank">on github</a> or <a href="https://github.com/alkal/cloneFormElement.js/archive/master.zip" target="_blank">download the zip</a>.</p>
+                </div><!--// col-xs-12 -->
+            </div><!--// row -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Simple Example</h2>
+                    <div id="notepaper1" class="notepaper panel panel-default">
+                        <div class="panel-heading"><h2>Note #1</h2></div><!--// panel-heading -->
+                        <div class="panel-body">
+                            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nunc quis est aliquam tristique. Nam nec lorem metus. Quisque in justo vitae risus blandit molestie sed non nibh. Sed eget nibh felis. Etiam ultricies ligula ut diam rutrum ut faucibus diam vestibulum. Curabitur vel tellus at lectus malesuada gravida at nec enim. Nulla commodo ultrices lectus, non dictum neque euismod non.
+                                <a class="triggerLink" data-toggle="collapse" href="#collapseExample1" aria-expanded="false"></a>
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <p>Sed nunc enim, malesuada non aliquam eu, blandit non justo. Maecenas est quam, semper eu ornare sed, vulputate a ipsum. In hac habitasse platea dictumst. Phasellus elementum risus sit amet lorem ullamcorper vel venenatis tellus bibendum. Sed non turpis nisl. Nulla in nunc diam. Sed sagittis pharetra libero nec sodales. Aliquam dapibus erat id ipsum consectetur sed auctor lectus gravida. Aliquam rutrum euismod ipsum, ac interdum sapien euismod ac. Ut euismod enim id diam dictum posuere. Fusce iaculis nulla sit amet dolor aliquet molestie. Nunc porta sodales libero, vel viverra justo vestibulum in. Aliquam eget magna elit, in vestibulum dolor. Proin porttitor accumsan pellentesque.</p>
+                                <p>Ut dolor tellus, mattis nec mattis eget, ultrices vel lectus. Suspendisse nec odio mattis mi fermentum consequat. Sed nibh est, fringilla vel vulputate at, cursus sit amet diam. Suspendisse potenti. Nam pharetra dignissim orci, eget feugiat quam scelerisque vitae. Duis aliquam vestibulum eros, quis tincidunt lectus elementum in. Pellentesque a arcu lacus, nec tincidunt nisi. Duis leo dolor, feugiat eu condimentum et, ultrices quis magna. Sed massa lorem, luctus et blandit eu, commodo ut ligula. In placerat, nulla posuere eleifend tempus, tellus lectus aliquam tortor, lobortis convallis magna velit eget nunc. Vestibulum posuere dignissim libero sit amet luctus. Vestibulum vitae eleifend dui.</p>
+                                <ul>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                </ul>
+                            </div><!--// collapse -->
+                            <div class="paperend"></div>
+                        </div><!--// panel-body -->
+                    </div><!--// panel-default -->
+                </div><!--// col-xs-12 -->
+            </div><!--// row -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="notepaper1" class="notepaper panel panel-default">
+                        <div class="panel-heading"><h2>Note #2</h2></div><!--// panel-heading -->
+                        <div class="panel-body">
+                            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nunc quis est aliquam tristique. Nam nec lorem metus. Quisque in justo vitae risus blandit molestie sed non nibh. Sed eget nibh felis. Etiam ultricies ligula ut diam rutrum ut faucibus diam vestibulum. Curabitur vel tellus at lectus malesuada gravida at nec enim. Nulla commodo ultrices lectus, non dictum neque euismod non.
+                                <a class="triggerLink" data-toggle="collapse" href="#collapseExample2" aria-expanded="false"></a>
+                            </p>
+                            <div class="collapse" id="collapseExample2">
+                                <p>Sed nunc enim, malesuada non aliquam eu, blandit non justo. Maecenas est quam, semper eu ornare sed, vulputate a ipsum. In hac habitasse platea dictumst. Phasellus elementum risus sit amet lorem ullamcorper vel venenatis tellus bibendum. Sed non turpis nisl. Nulla in nunc diam. Sed sagittis pharetra libero nec sodales. Aliquam dapibus erat id ipsum consectetur sed auctor lectus gravida. Aliquam rutrum euismod ipsum, ac interdum sapien euismod ac. Ut euismod enim id diam dictum posuere. Fusce iaculis nulla sit amet dolor aliquet molestie. Nunc porta sodales libero, vel viverra justo vestibulum in. Aliquam eget magna elit, in vestibulum dolor. Proin porttitor accumsan pellentesque.</p>
+                                <p>Ut dolor tellus, mattis nec mattis eget, ultrices vel lectus. Suspendisse nec odio mattis mi fermentum consequat. Sed nibh est, fringilla vel vulputate at, cursus sit amet diam. Suspendisse potenti. Nam pharetra dignissim orci, eget feugiat quam scelerisque vitae. Duis aliquam vestibulum eros, quis tincidunt lectus elementum in. Pellentesque a arcu lacus, nec tincidunt nisi. Duis leo dolor, feugiat eu condimentum et, ultrices quis magna. Sed massa lorem, luctus et blandit eu, commodo ut ligula. In placerat, nulla posuere eleifend tempus, tellus lectus aliquam tortor, lobortis convallis magna velit eget nunc. Vestibulum posuere dignissim libero sit amet luctus. Vestibulum vitae eleifend dui.</p>
+                                <ul>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                    <li>Item 1</li>
+                                </ul>
+                            </div><!--// collapse -->
+                            <div class="paperend"></div>
+                        </div><!--// panel-body -->
+                    </div><!--// panel-default -->
+                </div><!--// col-xs-12 -->
+            </div><!--// row -->
+        </div><!--// container -->
+        <!-- Load jQuery Library -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('.collapse').on('show.bs.collapse',function(e){
+                    var target=e.target;
+                    console.log($(target).prev('p').find('a'));
+                    $(target).prev('p').find('a').addClass('active');
+                });
+                $('.collapse').on('hide.bs.collapse',function(e){
+                    var target=e.target;
+                    console.log($(target).prev('p').find('a'));
+                    $(target).prev('p').find('a').removeClass('active');
+                });
+            });
+        </script>
+  </body>
+  
+</html>
