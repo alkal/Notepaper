@@ -1,0 +1,67 @@
+/* =========================================================================
+   Generic Styles 
+   ========================================================================== */
+
+body {color: #333; padding: 0 1.5em 3em;}
+header {text-align: center; padding-top: 10px;}
+h1, h2, h3 {font-family: 'Courgette', Arial, sans-serif;font-weight: 700;margin: 0;}
+h1 {font-size: 4em;margin:0 0 30px;}
+h2,h2 a,h2 span {font-size: 1.8em;}
+h2{margin:0 0 10px;}
+h3 {font-size: 1.1em;margin-bottom: 1em;}
+h2 span,h3 span {color: #AAA;}
+.row+.row{margin-top:2em;}
+.page-header{margin:10px 0 20px;}
+/* =========================================================================
+   Notepaper Styles 
+   ========================================================================== */
+
+.notepaper.panel-default{border:transparent;box-shadow:none;}
+.notepaper.panel-default>.panel-heading {
+  background-color: #B79583;
+  border-color:#B79583;
+  background-image: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
+  color: #f0f0f0;
+}
+.notepaper.panel-default>.panel-heading h2{margin:0;}
+
+.notepaper .panel-body{
+    background: #fcf59b;
+    background: -webkit-gradient(linear,left top, left bottom,from(#81cbbc),color-stop(7%, #fcf59b));
+    background: -moz-repeating-linear-gradient(center top , #FCF59B, #FCF59B 23px, #81CBBC 24px) repeat scroll 0 0 transparent;
+    background: -o-repeating-linear-gradient(center top , #FCF59B, #FCF59B 23px, #81CBBC 24px) repeat scroll 0 0 transparent;
+    -webkit-background-size: 50% 24px;
+    color: #212121;
+    font-family: Verdana,Arial,san-serif;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.notepaper .panel-body p{font-size:12px;line-height:24px;margin: 0;padding: 0 0.75em;}
+
+.notepaper .panel-body p.intro:first-child:first-line {
+    font-variant: small-caps;
+    font-size:16px;
+}
+
+.notepaper .panel-body p.intro:first-child:first-letter {
+    color: #444;
+    float: left;
+    font: bold 48px/48px 'Courgette', serif;
+    padding-right: 12px;
+}
+
+.notepaper .panel-body p{margin-top:24px;}
+.notepaper .panel-body p.intro{margin-top:0;}
+.notepaper .panel-body ul {color: #333;font: italic 16px/24px serif;margin-top:24px;line-height:24px;-webkit-column-count:3;-moz-column-count:3;column-count:3;list-style: none;}
+.notepaper .paperend{background: url("../img/paper.png") repeat-x 0 bottom transparent;height:18px;}
+.notepaper .collapse.in+.paperend{visibility:hidden;height:30px;}
+
+.notepaper a.triggerLink:before{content:"[Read More...]";}
+.notepaper a.triggerLink.active:before{display:none;}
+.notepaper a.triggerLink:after{content:"[Read Less...]";display:none;}
+.notepaper a.triggerLink.active:after{display:inline;}
