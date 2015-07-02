@@ -3,7 +3,7 @@ Pure CSS Notepaper is a simple technique to present quotes or small written text
 
 For more info, go to [the project page](http://alkal.github.io/Notepaper).
 
-# Legal
+### Legal
 
 Author & copyright (c) 2015: [Alexandros Kalamatianos (http://alkal.gr)]
 
